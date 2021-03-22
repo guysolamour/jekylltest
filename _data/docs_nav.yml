@@ -1,0 +1,59 @@
+- title: Installation
+  docs:
+    - link:
+        href: salit
+        title: composer
+    - link:
+        href: salit
+        title: create database
+    - link:
+        href: salit
+        title: run package installation
+    - link:
+        href: salit
+        title: publish config file
+    - link:
+        href: salit
+        title: empty cache
+    - link:
+        href: salit
+        title: create sym link
+    - link:
+        href: salit
+        title: create guard
+    - link:
+        href: salit
+        title: run seed
+- title: Crud
+  docs:
+    - link:
+        href: salit
+        title: overview
+    - link:
+        href: salit
+        title: generate
+    - link:
+        href: salit
+        title: rollback
+- title: Ecommerce
+  docs:
+    - link:
+        href: salit
+        title: overview
+    - link:
+        href: salit
+        title: generate
+    - link:
+        href: salit
+        title: rollback
+- title: Utils
+  docs:
+    - link:
+        href: salit
+        title: overview
+    - link:
+        href: salit
+        title: generate
+    - link:
+        href: salit
+        title: rollback
