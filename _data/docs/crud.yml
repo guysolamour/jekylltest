@@ -1,0 +1,31 @@
+- name: generate
+  files:
+    - overview
+    - name
+    - types
+    - validation
+    - nullable
+    - length
+    - slug
+    - edit_slug
+    - fillable
+    - trans
+    - default_value
+    - actions
+    - tinymce
+    - timestamps
+    - imagemanager
+    - icon
+    - polymorphic_type
+    - constraints
+    - seed
+    - relationship
+
+- name: append
+  files:
+    - overview
+
+- name: rollback
+  files:
+    - overview
+    - name

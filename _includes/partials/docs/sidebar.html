@@ -7,14 +7,14 @@
     </div>
     <nav id="docs-nav" class="docs-nav navbar">
         <ul class="section-items list-unstyled nav flex-column pb-3">
-            {% for p in site.data.docs_nav -%}
+            {% for p in site.data.docs.nav -%}
             <li class="nav-item section-title">
                 <a class="nav-link scrollto active" href="{{ p.link | relative_url }}">
                    <span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span> {{ p.title }} 
                 </a>
             </li>
                 {% for doc in p.docs -%}
-                <li class="nav-item"><a class="nav-link scrollto" href="{{ doc.link.href }}">{{ doc.link.title }}</a></li>
+                <li class="nav-item"><a class="nav-link scrollto" href="{{ doc.link.href | relative_url }}">{{ doc.link.title }}</a></li>
                 {% endfor -%}
             {% endfor -%}
             <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Section Item 1.2</a></li>

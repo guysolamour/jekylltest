@@ -1,0 +1,41 @@
+- title: Overview
+  docs:
+    - link:
+        href: docs/installation
+        title: Installation
+    - link:
+        href: docs/quick-start
+        title: Quik start
+- title: Crud
+  docs:
+    - link:
+        href: docs/make-crud
+        title: Generate
+    - link:
+        href: docs/append-crud
+        title: Append
+    - link:
+        href: docs/rollback-crud
+        title: Rollback
+- title: Ecommerce
+  docs:
+    - link:
+        href: salit
+        title: overview
+    - link:
+        href: salit
+        title: generate
+    - link:
+        href: salit
+        title: rollback
+- title: Utils
+  docs:
+    - link:
+        href: salit
+        title: overview
+    - link:
+        href: salit
+        title: generate
+    - link:
+        href: salit
+        title: rollback

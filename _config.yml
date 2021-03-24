@@ -20,7 +20,8 @@
 
 name: Administrable
 title: Your awesome title
-email: your-email@example.com
+email: rolandassale@gmail.com
+package_version: 4.0
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -33,19 +34,22 @@ timezone: America/Los_Angeles
 logo: "/img/logo-2x.png"
 twitter_username: jekyllrb
 github_username:  guysolamour
-markdown: kramdown
+# markdown: kramdown
 
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  posts:
-    permalink: "/news/:year/:month/:day/:title/"
-    output: true
+# collections:
+#   docs:
+#     permalink: "/:collection/:path/"
+#     output: true
+#   posts:
+#     permalink: "/news/:year/:month/:day/:title/"
+#     output: true
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,6 +60,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - pages
   - .history/
   - .sass-cache/
   - .jekyll-cache/
